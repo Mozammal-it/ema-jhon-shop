@@ -1,0 +1,15 @@
+.products{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+
+.products-detail{
+    padding-left: 30px;
+}
+
+.icon-color{
+    color: goldenrod;
+}
