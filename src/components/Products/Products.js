@@ -22,7 +22,7 @@ const Products = (props) => {
                     emptySymbol="far fa-star icon-color"
                     fullSymbol="fas fa-star icon-color"
                 ></Rating> <br/>
-                <button onClick={()=> props.handleAddToCart(console.log(props.teacher))}>{cartIcon} Add to cart</button>
+                <button onClick={()=> props.handleAddToCart(props.product)}>{cartIcon} Add to cart</button>
             </div>
         </div>
     );
